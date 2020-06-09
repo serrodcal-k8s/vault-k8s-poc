@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+/bin/*
+/.idea/*
+/.build/*
+
+# Output directory for binaries built in CircleCI
+/pkg
+
+.DS_Store
+.terraform/
+.terraform.tfstate*
+terraform.tfstate*
+terraform.tfvars
+values.dev.yaml
+vaul-helm-dev-creds.json
+./test/acceptance/vaul-helm-dev-creds.json
+./test/terraform/vaul-helm-dev-creds.json
+./test/unit/vaul-helm-dev-creds.json
+./test/acceptance/values.yaml
+./test/acceptance/values.yml
